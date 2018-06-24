@@ -7,10 +7,10 @@
 #Output: 
 #Element 5 found at index 7
 
-def las_index(arr,num):
+def last_index(arr,num):
   return len(arr)-arr[::-1].index(num)-1
 
 
 a=[0, 1, 2, 2, 4, 5, 5, 5, 8,5]
 num=5
-print(las_index(a,num))
+print(last_index(a,num))
